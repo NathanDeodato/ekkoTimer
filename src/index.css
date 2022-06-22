@@ -1,0 +1,28 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* config-body */
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  color: #fff;
+  background-color: #1c1c1c;
+
+  font-family: "Roboto Mono", monospace;
+}
+
+/* config-div */
+.globalDiv {
+  width: 95vw;
+  height: 90vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
