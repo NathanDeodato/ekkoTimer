@@ -19,10 +19,32 @@ export const EkkoBox = styled.div`
 
   background-color: #8c8354;
   border-radius: 20px;
+
+  @media (max-width: 1025px) {
+    width: 32vw;
+    height: 60vh;
+  }
+
+  @media (max-width: 769px) {
+    border-radius: 15px;
+  }
+
+  @media (max-width: 426px) {
+    width: 50vw;
+    height: 50vh;
+  }
 `;
 
 export const EkkoTitle = styled.h1`
   font-size: 2.5em;
+
+  @media (max-width: 1025px) {
+    font-size: 2em;
+  }
+
+  @media (max-width: 426px) {
+    font-size: 1.5em;
+  }
 `;
 
 export const Ekko = styled.img`
@@ -42,10 +64,28 @@ export const TimerBox = styled.div`
 
   background-color: #8c8354;
   border-radius: 20px;
+
+  @media (max-width: 1025px) {
+    width: 55vw;
+    height: 45vh;
+  }
+
+  @media (max-width: 769px) {
+    border-radius: 15px;
+  }
+
+  @media (max-width: 426px) {
+    width: 85vw;
+    height: 40vh;
+  }
 `;
 
 export const Sword = styled.img`
   width: 15%;
+
+  @media (max-width: 1025px) {
+    width: 20%;
+  }
 `;
 
 export const Timer = styled.p`
@@ -60,6 +100,10 @@ export const Timer = styled.p`
   border-radius: 30px;
 
   font-size: 3em;
+
+  @media (max-width: 1025px) {
+    font-size: 2.5em;
+  }
 `;
 
 export const ElementsTimer = styled.div`
@@ -86,6 +130,10 @@ export const ButtonTimer = styled.img`
   &:hover {
     cursor: pointer;
   }
+
+  @media (max-width: 1025px) {
+    width: 13%;
+  }
 `;
 
 //
@@ -96,9 +144,11 @@ export const Riot = styled.img`
   position: absolute;
   left: 38vw;
   top: 82vh;
-`;
 
-export const NT = styled.img``;
+  @media (max-width: 426px) {
+    top: 100vh;
+  }
+`;
 
 //
 
@@ -160,5 +210,15 @@ export const Circle = styled.div`
 
   &:hover {
     cursor: pointer;
+  }
+
+  @media (max-width: 1025px) {
+    width: 2vw;
+    height: 2vh;
+  }
+
+  @media (max-width: 426px) {
+    width: 2.5vw;
+    height: 2.5vh;
   }
 `;

@@ -20,9 +20,16 @@ body {
 /* config-div */
 .globalDiv {
   width: 95vw;
-  height: 90vh;
+  height: 100vh;
 
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/* config-responsive */
+@media (max-width: 426px) {
+  .globalDiv {
+    flex-direction: column;
+  }
 }
