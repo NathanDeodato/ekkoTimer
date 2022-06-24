@@ -33,6 +33,10 @@ export const EkkoBox = styled.div`
     width: 50vw;
     height: 50vh;
   }
+  
+  @media (max-width: 321px) {
+    width: 60vw;
+  }
 `;
 
 export const EkkoTitle = styled.h1`
@@ -78,6 +82,11 @@ export const TimerBox = styled.div`
     width: 85vw;
     height: 40vh;
   }
+
+  @media (max-width: 321px) {
+    width: 95vw;
+    height: 35vh;
+  }
 `;
 
 export const Sword = styled.img`
@@ -85,6 +94,10 @@ export const Sword = styled.img`
 
   @media (max-width: 1025px) {
     width: 20%;
+  }
+
+  @media (max-width: 321px) {
+    width: 22%;
   }
 `;
 
@@ -103,6 +116,10 @@ export const Timer = styled.p`
 
   @media (max-width: 1025px) {
     font-size: 2.5em;
+  }
+
+  @media (max-width: 720px) {
+    border-radius: 20px;
   }
 `;
 
@@ -220,5 +237,10 @@ export const Circle = styled.div`
   @media (max-width: 426px) {
     width: 2.5vw;
     height: 2.5vh;
+  }
+
+  @media (max-width: 321px) {
+    width: 3vw;
+    height: 3vh;
   }
 `;
